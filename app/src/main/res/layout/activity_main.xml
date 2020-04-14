@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#009688"
+    android:background="#6FB6A321"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -13,22 +13,37 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_centerVertical="true"
+        android:layout_width="395dp"
+        android:layout_height="454dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="91dp"
         app:srcCompat="@drawable/coal" />
 
     <TextView
         android:id="@+id/textView"
         style="@android:style/Widget.Holo.Light.TextView"
-        android:layout_width="wrap_content"
+        android:layout_width="131dp"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="200dp"
         android:fontFamily="casual"
-        android:text="@string/app_name"
+        android:text="I Am"
         android:textColor="@android:color/black"
-        android:textSize="40sp"
+        android:textSize="50sp"
         android:textStyle="bold|italic"
         android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="POOR"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="90dp"
+        android:textColor="@android:color/black"
+        android:textSize="60sp" />
+
 </RelativeLayout>
